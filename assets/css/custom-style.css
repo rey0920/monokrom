@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Index */
+
+.hero {
+  margin-bottom: 57px;
+}
+
+.nav-item .nav-link:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border: none;
+  height: 270px;
+}
+
+.content {
+  margin-bottom: 27px;
+}
+
+.content .row {
+  margin-top: 12px;
+}
+
+.card img {
+  width: 230px;
+  height: 135px;
+  background: cover;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+a .card img:hover {
+  width: 240px;
+  height: 155px;
+  object-fit: cover;
+  background-size: cover;
+  transition: 0.3s;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* End Index */
+
+/* Detail Produk */
+
+.breadcumb {
+  color: #9c9c9c;
+}
+
+.img-produk img {
+  object-fit: cover;
+  background-size: cover;
+}
+
+.detail-produk .harga {
+  color: #0d6efd;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.detail-produk form {
+  margin-top: 32px;
+}
+
+/* End Detail Produk */
+
+/* Checkout */
+
+tbody tr th img {
+  object-fit: cover;
+  background-size: cover;
+  width: 170px;
+  height: 100px;
+}
